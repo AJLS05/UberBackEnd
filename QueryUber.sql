@@ -401,6 +401,25 @@ INSERT INTO roles VALUES('Cliente', 'Consumidor de servicios');
 
 SELECT * FROM roles;
 
+INSERT INTO tiposFotografias VALUES('Carnet', 1);
+INSERT INTO movimientos VALUES('Entrada', 1);
+INSERT INTO movimientos VALUES('Salida', 1);
+INSERT INTO rangoEmision VALUES(1, 100);
+INSERT INTO rangoEmision VALUES(101, 200);
+INSERT INTO rangoEmision VALUES(301, 300);
+INSERT INTO tiposDocumentos VALUES(01, 'Factura', 1);
+INSERT INTO establecimiento VALUES(1, 01);
+INSERT INTO puntosEmision VALUES(001, 1, 01, 01, 1);
+INSERT INTO metodosPagos VALUES('Efectivo', 1);
+INSERT INTO metodosPagos VALUES('Credito', 1);
+INSERT INTO empresa VALUES('Uber', 08012024123456);
+INSERT INTO CAI VALUES('1234-5689', '12-12-2024', 1);
+INSERT INTO telefonosSucursales VALUES(1234-5689,			)
+INSERT INTO Correos VALUES('uber@gmail.com', 1, 1)
+INSERT INTO Sucursales VALUES('Sucursal 1','Col Vista Hermosa', 1);
+
+
+
 --Triguer que cuando se inserta un nuevo usuario se le asigna un nuevo rol
 CREATE TRIGGER T_usuarios_roles 
 ON usuarios 
