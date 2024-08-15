@@ -347,6 +347,7 @@ INSERT INTO estados VALUES('Rechazada', 1);
 INSERT INTO estados VALUES('Cancelada', 1);
 INSERT INTO estados VALUES('Realizada', 1);
 INSERT INTO estados VALUES('En Proceso', 1);
+
 INSERT INTO marcas VALUES('Ford', 1);
 INSERT INTO marcas VALUES('Toyota', 1);
 INSERT INTO marcas VALUES('Nissan', 1);
@@ -355,27 +356,27 @@ INSERT INTO marcas VALUES('Hyundai', 1);
 INSERT INTO marcas VALUES('Kia', 1);
 INSERT INTO marcas VALUES('Volkswagen', 1);
 INSERT INTO marcas VALUES('Renault', 1);
-INSERT INTO marcas VALUES('Peugeot', 1);
 INSERT INTO marcas VALUES('Mazda', 1);
 INSERT INTO marcas VALUES('Suzuki', 1);
-INSERT INTO marcas VALUES('BMW', 1);
 
 
 INSERT INTO modelos VALUES('Focus', 1, 1);
 INSERT INTO modelos VALUES('Fiesta', 1, 1);
-INSERT INTO modelos VALUES('Corolla', 1, 1);
-INSERT INTO modelos VALUES('Camry', 2, 2);
-INSERT INTO modelos VALUES('Yaris', 2, 2);
-INSERT INTO modelos VALUES('Sentra', 2, 2);
-INSERT INTO modelos VALUES('Civic', 2, 2);
-INSERT INTO modelos VALUES('Fit', 3, 3);
-INSERT INTO modelos VALUES('Tucson', 3, 3);
-INSERT INTO modelos VALUES('Elantra', 3, 3);
-INSERT INTO modelos VALUES('Accent', 4, 4);
-INSERT INTO modelos VALUES('Picanto', 4, 4);
-INSERT INTO modelos VALUES('JETTA', 5, 5);
-INSERT INTO modelos VALUES('Clio', 5, 5);
-INSERT INTO modelos VALUES('Pegout', 5, 5);
+INSERT INTO modelos VALUES('Corolla', 2, 1);
+INSERT INTO modelos VALUES('Camry', 2, 1);
+INSERT INTO modelos VALUES('Yaris', 2, 1);
+INSERT INTO modelos VALUES('Sentra', 3, 1);
+INSERT INTO modelos VALUES('Civic', 4, 1);
+INSERT INTO modelos VALUES('Fit', 4, 1);
+INSERT INTO modelos VALUES('Elantra', 5, 1);
+INSERT INTO modelos VALUES('Accent', 5, 1);
+INSERT INTO modelos VALUES('Tucson', 5, 1);
+INSERT INTO modelos VALUES('Picanto', 6, 1);
+INSERT INTO modelos VALUES('JETTA', 7, 1);
+INSERT INTO modelos VALUES('Clio', 8, 1);
+INSERT INTO modelos VALUES('3', 9, 1);
+INSERT INTO modelos VALUES('Swift', 9, 1);
+
 
 
 INSERT INTO modelos VALUES('Focus', 1, 1);
