@@ -359,7 +359,6 @@ INSERT INTO marcas VALUES('Renault', 1);
 INSERT INTO marcas VALUES('Mazda', 1);
 INSERT INTO marcas VALUES('Suzuki', 1);
 
-
 INSERT INTO modelos VALUES('Focus', 1, 1);
 INSERT INTO modelos VALUES('Fiesta', 1, 1);
 INSERT INTO modelos VALUES('Corolla', 2, 1);
@@ -377,25 +376,6 @@ INSERT INTO modelos VALUES('Clio', 8, 1);
 INSERT INTO modelos VALUES('3', 9, 1);
 INSERT INTO modelos VALUES('Swift', 9, 1);
 
-
-
-INSERT INTO modelos VALUES('Focus', 1, 1);
-INSERT INTO modelos VALUES('Fiesta', 1, 1);
-INSERT INTO modelos VALUES('Corolla', 1, 1);
-INSERT INTO modelos VALUES('Camry', 2, 2);
-INSERT INTO modelos VALUES('Yaris', 2, 2);
-INSERT INTO modelos VALUES('Sentra', 2, 2);
-INSERT INTO modelos VALUES('Civic', 2, 2);
-INSERT INTO modelos VALUES('Fit', 3, 3);
-INSERT INTO modelos VALUES('Tucson', 3, 3);
-INSERT INTO modelos VALUES('Elantra', 3, 3);
-INSERT INTO modelos VALUES('Accent', 4, 4);
-INSERT INTO modelos VALUES('Picanto', 4, 4);
-INSERT INTO modelos VALUES('JETTA', 5, 5);
-INSERT INTO modelos VALUES('Clio', 5, 5);
-INSERT INTO modelos VALUES('Pegout', 5, 5);
-
-
 INSERT INTO roles VALUES('Administrador', 'Administrador del sistema');
 INSERT INTO roles VALUES('Conductor', 'Conductor de un vehiculo');
 INSERT INTO roles VALUES('Cliente', 'Consumidor de servicios');
@@ -410,15 +390,14 @@ INSERT INTO rangoEmision VALUES(101, 200);
 INSERT INTO rangoEmision VALUES(301, 300);
 INSERT INTO tiposDocumentos VALUES(01, 'Factura', 1);
 INSERT INTO establecimiento VALUES(1, 01);
-INSERT INTO puntosEmision VALUES(001, 1, 01, 01, 1);
+INSERT INTO puntosEmision VALUES(1, 1, 1, 1);
 INSERT INTO metodosPagos VALUES('Efectivo', 1);
 INSERT INTO metodosPagos VALUES('Credito', 1);
 INSERT INTO empresa VALUES('Uber', 08012024123456);
-INSERT INTO CAI VALUES('1234-5689', '12-12-2024', 1);
-INSERT INTO telefonosSucursales VALUES(1234-5689,			)
+INSERT INTO cais VALUES('1234-5689', '12-12-2024', 1);
 INSERT INTO Correos VALUES('uber@gmail.com', 1, 1)
 INSERT INTO Sucursales VALUES('Sucursal 1','Col Vista Hermosa', 1);
-
+INSERT INTO telefonosSucursales VALUES(12345689,1,1);
 
 
 --Triguer que cuando se inserta un nuevo usuario se le asigna un nuevo rol
